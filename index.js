@@ -78,7 +78,7 @@ inquirer
     {
       type: "input",
       name: "usage",
-      message: "Please provide instructions and exmaple for use.",
+      message: "Please provide instructions and example for use.",
     },
     {
       type: "list",
@@ -100,7 +100,7 @@ inquirer
   .then((response) => {
     const createReadMe = generateReadMe(response);
 
-    fs.writeFile("exampleREADME.md", createReadMe, (err) =>
+    fs.writeFile("sampleREADME.md", createReadMe, (err) =>
       err ? console.log(err) : console.log("README created successfully!")
     );
   });
