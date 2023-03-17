@@ -24,7 +24,7 @@ link to video
 MIT
 
 ## Contribute
-
+how users can contribute
 
 ## Test
 node index.js
